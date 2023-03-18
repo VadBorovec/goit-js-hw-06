@@ -199,3 +199,37 @@ button {
   width: 45%;
   height: 45%;
 }
+
+/* ----------------------------------------------------------- */
+/* STYLES FOR BTN TO TOP */
+
+.to-top-btn {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.to-top-btn:hover {
+  background-image: linear-gradient(to right, #0abfbc, #fc354c);
+}
+
+.to-top-btn__icon {
+  /* display: block; */
+  /* margin: 0 auto; */
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+  transition: transform 0.3s ease-in-out;
+}
+
+.to-top-btn:hover .to-top-btn__icon {
+  transform: scale(2);
+}
