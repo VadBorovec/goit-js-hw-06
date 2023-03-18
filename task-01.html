@@ -10,8 +10,18 @@
 </head>
 
 <body>
-  <p><a href="index.html">Go back</a></p>
+  <!-- BTN BACK -->
+  <button type="button" class="back-btn">
+    <svg class="icon" viewBox="0 0 24 24">
+      <path fill="#fff" d="M15.5 8.5l-1-1L10 12l4.5 4.5 1-1L12 12z" />
+    </svg>
+    <a class="to-top__link" href="index.html">Back</a>
+  </button>
 
+  <!-- HEADER -->
+  <h1 class="page-header">01 task</h1>
+
+  <!-- BODY -->
   <ul id="categories">
     <li class="item">
       <h2>Animals</h2>
@@ -44,7 +54,58 @@
       </ul>
     </li>
   </ul>
+
   <script src="js/task-01.js" type="module"></script>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="social">
+        <ul class="social__list">
+          <li class="social__item">
+            <a href="https://github.com/VadBorovec" class="social__link">
+              <svg class="social__icon">
+                <use href="./images/icons.svg#icon-github"></use>
+              </svg>
+            </a>
+
+          </li>
+          <li class="social__item">
+            <a href="https://www.linkedin.com/in/vadymborovets/" class="social__link">
+              <svg class="social__icon">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+
+          </li>
+          <li class="social__item">
+            <a href="https://www.instagram.com/ivanfarfan/" class="social__link">
+              <svg class="social__icon">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+
+          </li>
+          <li class="social__item">
+            <a href="https://t.me/Borovec" class="social__link">
+              <svg class="social__icon">
+                <use href="./images/icons.svg#icon-telegram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="copyright">
+        <p>&copy; 2023 - All rights reserved</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- RANDOM BACKGROUND COLOR -->
+  <script src="./js/random-background-color.js" type="module"></script>
+
 </body>
 
 </html>
