@@ -36,7 +36,7 @@ galleryList.style.gap = "20px";
 galleryList.style.listStyle = "none";
 
 const makeGalleryMarkup = ({ url, alt }) =>
-  `<li><img src='${url}' alt='${alt}' width = '320' </li>`;
+  `<li><img src='${url}' alt='${alt}' width = '320'> </li>`;
 
 const makeGallery = images.map(makeGalleryMarkup).join("");
 
